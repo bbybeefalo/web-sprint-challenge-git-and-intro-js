@@ -232,7 +232,7 @@ Use getArtistByIndex to do the following:
 🌟 EXAMPLE: if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
 function getArtistByIndex(array, index,) {
-  return `the artist at ${index} is ${array[index].name} `;
+  return `the artist at index ${index} is ${array[index].name} `;
 }
 
 //console.log(getArtistByIndex(artists, 0));
